@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/12/17 1:36:32。
+     1>项目“C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\green-triangle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\angel.h(50): warning C4305: “初始化”: 从“double”到“const GLfloat”截断
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(707): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(708): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(709): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(730): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(732): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(735): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\mat.h(752): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>d:\vs 2013\vc\include\gl\freeimage.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(189): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(210): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(211): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(240): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(242): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(249): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(296): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(325): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\cyc\desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\source.cpp(450): warning C4305: “参数”: 从“double”到“GLclampf”截断
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1197,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         D:\vs 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\Debug\green-triangle.exe" /INCREMENTAL /NOLOGO glut32.lib Opengl32.lib Glu32.lib glew32.lib freeglut.lib glew32s.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:freeglutd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\Debug\green-triangle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\Debug\green-triangle.lib" /MACHINE:X86 Debug\ObjLoader.obj
+         Debug\Source.obj
+         green-triangle.vcxproj -> C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\Debug\green-triangle.exe
+     1>已完成生成项目“C:\Users\CYC\Desktop\亮闪闪动物园日记_version2\green-triangle_6\green-triangle\green-triangle\green-triangle.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.53
